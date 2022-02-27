@@ -4,19 +4,19 @@ const se6lstP = q_s(`.sec6Div>div>div:nth-child(3)>p`);
 const se6lstUL = q_s(`.sec6Div>div>div:nth-child(3)>ul`);
 
 const s6_h1_obj = {
-  src: "../img/section6/title-burger.png",
+  src: "img/section6/title-burger.png",
   alt: "title-burger.png",
   span: "BURGER HOUSE",
 };
 
 const s6_addrs_Arr = [
   {
-    src: "../img/section6/location.png",
+    src: "img/section6/location.png",
     alt: "location.png",
     addr: "MAIN RAOD, BUILDING NAME, COUNTRY",
   },
   {
-    src: "../img/section6/email.png",
+    src: "img/section6/email.png",
     alt: "email.png",
     addr: "info@companyname.com",
   },
@@ -27,22 +27,22 @@ const s6Foot_obj = {
   ul: [
     {
       href: "/",
-      src: "../img/section6/social/instagram.png",
+      src: "img/section6/social/instagram.png",
       alt: "instagram.png",
     },
     {
       href: "/",
-      src: "../img/section6/social/facebook.png",
+      src: "img/section6/social/facebook.png",
       alt: "facebook.png",
     },
     {
       href: "/",
-      src: "../img/section6/social/twitter.png",
+      src: "img/section6/social/twitter.png",
       alt: "twitter.png",
     },
     {
       href: "/",
-      src: "../img/section6/social/whatsapp.png",
+      src: "img/section6/social/whatsapp.png",
       alt: "whatsapp.png",
     },
   ],

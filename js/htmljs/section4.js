@@ -12,21 +12,21 @@ const storyArr = [
     h2: "DISCOVER",
     h1: "UPCOMING EVENTS",
     p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptates, nemo asperiores quos cumque error obcaecati fuga inventore enim tempora, consectetur, iusto est corporis? Quibusdam accusantium earum, quos reiciendis sit atque alias illum esse.",
-    src: "../img/section4/right.png",
+    src: "img/section4/right.png",
   },
 
   {
     h2: "TRY",
     h1: "FOOD EVENTS",
     p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptates, nemo asperiores quos cumque error obcaecati fuga inventore enim tempora, consectetur, iusto est corporis? Quibusdam accusantium earum, quos reiciendis sit atque alias illum esse.",
-    src: "../img/section2/left.png",
+    src: "img/section2/left.png",
   },
 
   {
     h2: "GET",
     h1: "FOOD NEWS",
     p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptates, nemo asperiores quos cumque error obcaecati fuga inventore enim tempora, consectetur, iusto est corporis? Quibusdam accusantium earum, quos reiciendis sit atque alias illum esse.",
-    src: "../img/section2/right-bottom.png",
+    src: "img/section2/right-bottom.png",
   },
 ];
 

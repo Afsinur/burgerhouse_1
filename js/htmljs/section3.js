@@ -2,9 +2,9 @@ const nth_c2 = q_s(`.sec3Div>div:nth-child(2)`);
 
 const nth_c2_arr = [
   {
-    src1: "../img/section3/left.png",
+    src1: "img/section3/left.png",
     alt1: "left.png",
-    src2: "../img/section3/left-shadow.png",
+    src2: "img/section3/left-shadow.png",
     alt2: "left-shadow.png",
     h2: "Lorem ipsum dolor",
     p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, numquam.",
@@ -12,9 +12,9 @@ const nth_c2_arr = [
     a_txt: "ORDER NOW",
   },
   {
-    src1: "../img/section3/middle.png",
+    src1: "img/section3/middle.png",
     alt1: "middle.png",
-    src2: "../img/section3/middle-shadow.png",
+    src2: "img/section3/middle-shadow.png",
     alt2: "middle-shadow.png",
     h2: "Lorem ipsum dolor",
     p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, numquam.",
@@ -22,9 +22,9 @@ const nth_c2_arr = [
     a_txt: "ORDER NOW",
   },
   {
-    src1: "../img/section3/right.png",
+    src1: "img/section3/right.png",
     alt1: "right.png",
-    src2: "../img/section3/right-shadow.png",
+    src2: "img/section3/right-shadow.png",
     alt2: "right-shadow.png",
     h2: "Lorem ipsum dolor",
     p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, numquam.",
