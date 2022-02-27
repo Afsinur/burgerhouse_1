@@ -1,0 +1,132 @@
+<style>
+  .sec4Div {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0 50px 0;
+  }
+
+  .sec4Div > div {
+    position: relative;
+    width: 80%;
+    height: 60vh;
+    box-shadow: 14px 20px 20px 8px rgba(0, 0, 0, 0.1);
+    background-color: #eff3f4;
+    padding: 40px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sec4Div > div > div {
+    height: 100%;
+    width: 50%;
+  }
+
+  .sec4Div > div > div:nth-child(1) {
+    overflow-x: hidden;
+    padding-right: 5px;
+  }
+
+  .sec4Div > div > div:nth-child(2) {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  div.sec4Toggle_ {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: unset !important;
+    height: unset !important;
+    padding: 8px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  div.sec4Toggle_ > div {
+    padding: 8px;
+    margin: 4px;
+    border-radius: 50%;
+    background-color: #c4c7ca;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  .sec4Div > div > div:nth-child(1) > h2 {
+    color: #3d2514;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1rem;
+  }
+
+  .sec4Div > div > div:nth-child(1) > h1 {
+    color: #3d2514;
+    font-size: 2.6rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+
+  .sec4Div > div > div:nth-child(1) > p {
+    color: #3d2514cc;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .s4_anim {
+    animation: s4OpacityAnim 200ms linear 1 forwards;
+  }
+
+  @keyframes s4OpacityAnim {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @media screen and (max-width: 820px) {
+    .sec4Div {
+      padding: 30px 0 30px 0;
+    }
+
+    .sec4Div > div {
+      height: 90vh;
+      width: 90%;
+
+      flex-direction: column-reverse;
+    }
+
+    .sec4Div > div > div {
+      width: 100%;
+    }
+
+    .sec4Div > div > div:nth-child(1) {
+      margin-top: 20px;
+    }
+  }
+</style>
+
+<div class="sec4Div">
+  <div>
+    <div></div>
+
+    <div></div>
+
+    <div class="sec4Toggle_">
+      <div data-tgglnum="0"></div>
+      <div data-tgglnum="1"></div>
+      <div data-tgglnum="2"></div>
+    </div>
+  </div>
+</div>
